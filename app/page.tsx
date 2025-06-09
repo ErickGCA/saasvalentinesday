@@ -94,8 +94,8 @@ const themes = {
 // Músicas disponíveis
 const musicOptions = [
   { id: "none", name: "Sem Música", url: "" },
-  { id: "romantic1", name: "Serenata Romântica", url: "/placeholder-audio.mp3" },
-  { id: "romantic2", name: "Melodia do Coração", url: "/placeholder-audio.mp3" },
+  { id: "romantic1", name: "Os Anjos Cantam", url: "/images/Jorge & Mateus - Os Anjos Cantam (LyricVideo) [Álbum Os Anjos Cantam].mp3" },
+  { id: "romantic2", name: "Love Someone", url: "/images/Lukas Graham - Love Someone [Live at Royal Arena].mp3" },
   { id: "romantic3", name: "Valsa dos Namorados", url: "/placeholder-audio.mp3" },
   { id: "romantic4", name: "Canção de Amor", url: "/placeholder-audio.mp3" },
 ]
@@ -104,7 +104,7 @@ const musicOptions = [
 const photos = [
   {
     id: 1,
-    src: "/placeholder.svg?height=500&width=700",
+    src: "/images/casal-de-bicicleta-posando-enquanto-inclinando-se-para-um-beijo.jpg",
     alt: "Nosso primeiro encontro",
     title: "Primeiro Encontro",
     date: "14 de Fevereiro de 2023",
@@ -116,7 +116,7 @@ const photos = [
   },
   {
     id: 2,
-    src: "/placeholder.svg?height=500&width=700",
+    src: "/images/pexels-ikaandlukas-773327.jpg",
     alt: "Viagem romântica",
     title: "Nossa Primeira Viagem",
     date: "10 de Abril de 2023",
@@ -167,13 +167,13 @@ const photos = [
 const videos = [
   {
     id: 1,
-    thumbnail: "/placeholder.svg?height=400&width=600",
+    thumbnail: "/images/casal-de-bicicleta-posando-enquanto-inclinando-se-para-um-beijo.jpg",
     title: "Nossa Música",
     description: "A canção que toca sempre que penso em você",
   },
   {
     id: 2,
-    thumbnail: "/placeholder.svg?height=400&width=600",
+    thumbnail: "/images/us.png",
     title: "Momentos Especiais",
     description: "Compilação dos nossos melhores momentos juntos",
   },
@@ -409,7 +409,7 @@ export default function ValentinePage() {
       <header className={`text-center py-16 px-4 relative z-10 ${theme.headerGradient} bg-opacity-30`}>
         <div className="flex items-center justify-center gap-4 mb-8 animate-fade-in">
           <Heart className={`w-12 h-12 text-white animate-pulse drop-shadow-lg`} fill="currentColor" />
-          <h1 className={`text-5xl md:text-7xl font-bold text-white drop-shadow-2xl`}>Nosso Amor</h1>
+          <h1 className={`text-5xl md:text-7xl font-bold text-white drop-shadow-2xl`}>Feliz Dia dos Namorados</h1>
           <Heart className={`w-12 h-12 text-white animate-pulse drop-shadow-lg`} fill="currentColor" />
         </div>
         <p className="text-xl md:text-2xl text-white font-light animate-slide-up drop-shadow-md">
@@ -596,9 +596,7 @@ export default function ValentinePage() {
                 Nossa História Continua...
               </h3>
               <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-                [Aqui você pode editar e adicionar seu texto personalizado sobre a história do casal, declarações de
-                amor, planos futuros, ou qualquer mensagem especial que queira compartilhar. Este espaço é seu para
-                expressar todos os sentimentos e memórias que tornam essa relação única e especial.]
+                [Nos conhecemos por acaso, mas nada entre nós foi por acaso. Cada riso, cada conversa, cada silêncio compartilhado construiu algo real. Te amar virou meu hábito favorito. E enquanto o mundo muda lá fora, meu plano é simples: estar ao seu lado em cada capítulo que ainda vamos escrever..]
               </p>
             </CardContent>
           </Card>
